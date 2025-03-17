@@ -1,0 +1,98 @@
+.projectCard {
+  width: 23%;
+  height: 380px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(rgb(15, 23, 36), rgb(15, 23, 36)) padding-box,
+    linear-gradient(45deg, #965fe3, #23a7cd) border-box;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.card-1 {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-1 p {
+  color: rgb(245, 245, 245);
+  align-self: flex-start;
+}
+
+.card-1 p:nth-child(2) {
+  font-size: 1.5em;
+}
+
+.card-1 p:nth-child(3) {
+  font-size: 0.95em;
+  color: #8c909a;
+  letter-spacing: 1.4px;
+}
+
+.card-1 img {
+  width: 100%;
+  height: 19p0px;
+  object-fit: cover;
+}
+
+.card-2 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-2 a {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.card-2 button {
+  width: 100%;
+  height: 100%;
+  font-size: 0.8em;
+  cursor: pointer;
+  font-weight: 800;
+  border-radius: 25px;
+  color: white;
+}
+
+.card-2 a:first-child button {
+  background-image: linear-gradient(to right, #965fe3, #23a7cd);
+  border: 1px solid transparent;
+}
+
+.card-2 a:first-child button:hover {
+  background-image: linear-gradient(to right, #b37dff, #2ebae1);
+}
+
+.card-2 a:last-child button {
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #777c82;
+  transition: 0.5s ease border;
+}
+.card-2 a:last-child button:hover {
+  border: 2px solid white;
+}

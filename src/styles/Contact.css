@@ -1,0 +1,54 @@
+.contactContainer {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactHeading {
+  width: 50%;
+  height: 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contactHeading h2 {
+  color: rgb(245, 245, 245);
+}
+
+.contactInfo {
+  color: rgb(245, 245, 245);
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid transparent;
+  background: linear-gradient(rgb(15, 23, 36), rgb(15, 23, 36)) padding-box,
+    linear-gradient(45deg, #965fe3, #23a7cd) border-box;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.infoLine {
+  width: 35%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.infoLine p:first-child {
+  font-size: 1.1em;
+}
+
+.infoLine p:last-child {
+  font-size: 1.1em;
+  font-weight: 600;
+}

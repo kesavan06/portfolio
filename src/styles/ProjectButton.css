@@ -1,0 +1,26 @@
+.projectbtn {
+  width: 200px;
+  height: 50px;
+  color: rgb(245, 245, 245);
+  border: 1px solid transparent;
+  font-size: 1.3em;
+  border-radius: 8px;
+  transition: background-position 0.3s ease-in-out;
+  background: linear-gradient(rgb(15, 23, 36), rgb(15, 23, 36)) padding-box,
+    linear-gradient(45deg, #965fe3, #23a7cd) border-box;
+  background-size: 200% 200%;
+  background-position: left bottom;
+  cursor: pointer;
+}
+
+.projectbtn.active {
+  background: linear-gradient(45deg, #965fe3, #23a7cd);
+  border: none;
+}
+
+.projectbtn:hover {
+  background-position: right top;
+}
+
+/*  background: linear-gradient(to right,#965fe3, #23a7cd);
+*/

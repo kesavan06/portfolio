@@ -1,0 +1,60 @@
+.headerContainer {
+  display: flex;
+  position: sticky;
+  top: 15px;
+  z-index: 50;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  height: 5vh;
+
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: linear-gradient(rgb(15, 23, 36), rgb(15, 23, 36)) padding-box,
+    linear-gradient(45deg, #965fe3, #23a7cd) border-box;
+  margin: 15px 0px 0px 0px;
+}
+
+.title h2 {
+  color: rgb(245, 245, 245);
+}
+
+.headerContainer ul {
+  display: flex;  gap: 15px;
+
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 40%;
+  padding: 0 25px;
+}
+
+.headerContainer ul li {
+  color: rgb(245, 245, 245);
+  cursor: pointer;
+  padding: 0px 0px 2px 0px;
+  font-size: 1.1em;
+  font-weight: 500;
+  position: relative;
+}
+
+.headerContainer ul li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(45deg, #965fe3, #23a7cd);
+  transition: width 0.4s ease;
+}
+
+.headerContainer ul li:hover::after {
+  width: 100%;
+}
+
+.headerContainer ul a {
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+}

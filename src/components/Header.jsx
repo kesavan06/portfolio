@@ -4,9 +4,7 @@ export const Header = () => {
   return (
     <>
       <header className="headerContainer">
-        <div className="title">
-          <h2>Portfolio</h2>
-        </div>
+        
         <ul>
           <a href="#about">
             <li>About</li>

@@ -11,31 +11,37 @@ export const ProjectList = () => {
       description: "HTML, CSS & JS",
     },
     {
-      image: "rps.png",
-      title: "Rock Paper Scissor",
-      link: "https://rock-paper-scissor-kf4x.onrender.com/",
-      codeLink: "https://github.com/kesavan06/rock_paper_scissor",
-      description: "Node.js, Socket.IO",
-    },
-    {
-      image: "loom.png",
-      title: "Loom",
-      link: "https://loom-html-css-project.netlify.app/",
-      codeLink: "https://github.com/kesavan06/loom-html-project",
-      description: "HTML & CSS",
-    },
-    {
-      image: "carparking.png",
-      title: "Car Parking System",
-      description: "Java, MySQL console project",
-      codeLink: "https://github.com/kesavan06/car-parking-system",
-    },
-    {
       image: "Kathaikalaam.png",
       title: "Kathaikalaam",
       link: "https://172.17.61.162:5173/",
       codeLink: "https://github.com/kesavan06/kathaikalaam-online-meeting",
       description: "React, WebRTC, Socket.IO, ",
+    },
+    {
+      image: "carparking.png",
+      title: "Car Parking System",
+      description: "Java, MySQL - console project",
+      codeLink: "https://github.com/kesavan06/car-parking-system",
+    },
+    {
+      image: "rps.png",
+      title: "Rock Paper Scissors",
+      link: "https://rock-paper-scissor-kf4x.onrender.com/",
+      codeLink: "https://github.com/kesavan06/rock_paper_scissor",
+      description: "Node.js, Socket.IO",
+    },
+    {
+      image: "todo.jpg",
+      title: "ToDo (Chrome Extension)",
+      codeLink: "https://github.com/kesavan06/loom-html-project",
+      description: "React",
+    },
+    {
+      image: "loom.png",
+      title: "Loom",
+      link: "https://loom-html-css-project.netlify.app/",
+      codeLink: "https://github.com/kesavan06/todo",
+      description: "HTML & CSS",
     },
   ];
   return (

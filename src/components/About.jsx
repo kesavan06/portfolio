@@ -4,7 +4,7 @@ export const About = () => {
     <section className="aboutContainer" id="about">
       <div className="aboutContent">
         <h1>Hello, I'm Kesavan,</h1>
-        <h1>Frontend Developer</h1>
+        <h1>Trained as Frontend Developer</h1>
         <p>
           I'm a passionate developer who loves building scalable and efficient
           solutions. Always exploring new technologies to create impactful

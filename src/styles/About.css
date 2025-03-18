@@ -31,7 +31,7 @@
 .aboutContent h1:nth-child(2) {
   color: rgb(245, 245, 245);
   font-weight: 800;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 400;
 }
 
@@ -105,5 +105,81 @@
 @keyframes ballAnimation {
   0% {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width:  1160px) {
+  .aboutContainer {
+    flex-direction: column;
+  }
+  .aboutContent {
+    width: 100%;
+  }
+
+  .aboutProfilePhoto {
+    width: 350px;
+    height: 350px;
+  }
+  .aboutProfilePhoto img {
+    width: 345px;
+    height: 345px;
+  }
+  .aboutProfilePhoto::after {
+    width: 400px;
+    height: 400px;
+    min-width: fit-content;
+  }
+  .aboutProfilePhoto::before {
+    width: 400px;
+    height: 2px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 720px) {
+  .aboutContainer {
+    flex-direction: column;
+  }
+  .aboutContent {
+    min-width: 120%;
+  }
+
+  .aboutContent h1:first-child {
+    background-image: linear-gradient(to right, #965fe3, #23a7cd);
+    background-clip: text;
+    color: transparent;
+    font-size: 2.5em;
+    font-weight: 800;
+  }
+
+  .aboutContent h1:nth-child(2) {
+    color: rgb(245, 245, 245);
+    font-weight: 800;
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+
+  .aboutContent p {
+    color: #8c909a;
+    width: 90%;
+    letter-spacing: 1.5px;
+    font-size: 0.9em;
+  }
+
+  .aboutProfilePhoto {
+    width: 250px;
+    height: 250px;
+  }
+  .aboutProfilePhoto img {
+    width: 245px;
+    height: 245px;
+  }
+  .aboutProfilePhoto::after {
+    width: 300px;
+    height: 300px;
+    min-width: fit-content;
+  }
+  .aboutProfilePhoto::before {
+    width: 300px;
+    height: 2px;
   }
 }

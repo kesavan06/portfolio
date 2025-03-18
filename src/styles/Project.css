@@ -1,6 +1,7 @@
 .projectCard {
   width: 23%;
-  height: 380px;
+  min-width: fit-content;
+  height: 420px;
   border: 1px solid transparent;
   display: flex;
   align-items: center;
@@ -48,7 +49,7 @@
 
 .card-1 img {
   width: 100%;
-  height: 19p0px;
+  height: 190px;
   object-fit: cover;
 }
 
@@ -95,4 +96,16 @@
 }
 .card-2 a:last-child button:hover {
   border: 2px solid white;
+}
+
+@media screen and (min-width: 0px) and (max-width: 720px) {
+  .projectCard {
+    width: fit-content;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1160px) {
+  .projectCard {
+    width: fit-content;
+  }
 }

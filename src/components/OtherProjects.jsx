@@ -39,6 +39,13 @@ export const OtherProjects = () => {
         description: "Node.js, Express",
         codeLink: "https://github.com/kesavan06/solorsystem",
       },
+      {
+        image: "comment.png",
+        title: "Comment Section",
+        link: "https://interactive-comment-section.onrender.com/",
+        description: "Node.js, Express",
+        codeLink: "https://github.com/kesavan06/interactive-comment-section",
+      },
     ],
 
     htmlcss: [
@@ -57,6 +64,13 @@ export const OtherProjects = () => {
         description: "HTML, CSS",
         codeLink: "https://github.com/kesavan06/cascade-html",
       },
+      {
+        image: "vertax.png",
+        title: "Vertax",
+        link: "https://vertax.netlify.app/",
+        description: "HTML, CSS",
+        codeLink: "https://github.com/kesavan06/vertax",
+      },
     ],
     scratch: [
       {
@@ -64,6 +78,21 @@ export const OtherProjects = () => {
         title: "Rescue Jumbo",
         link: "https://scratch.mit.edu/projects/1044719177/fullscreen/",
         codeLink: "https://scratch.mit.edu/projects/1044719177/editor/",
+        description: "Scratch",
+      },
+      {
+        image: "shape-scratch.png",
+        title: "Shapes Drawing",
+        link: "https://scratch.mit.edu/projects/1036612412/fullscreen/",
+        codeLink: "https://scratch.mit.edu/projects/1036612412/editor/",
+        description: "Scratch",
+      },
+
+      {
+        image: "day-calculator.png",
+        title: "Day Calculator",
+        link: "https://scratch.mit.edu/projects/1035364686/fullscreen/",
+        codeLink: "https://scratch.mit.edu/projects/1035364686/editor/",
         description: "Scratch",
       },
     ],

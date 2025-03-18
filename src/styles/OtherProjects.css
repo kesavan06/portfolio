@@ -9,7 +9,7 @@
 }
 
 .otherProjectHeading {
-  width: 87%;
+  width: 75%;
 }
 
 .otherProjectHeading h2 {
@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -39,4 +40,10 @@
   flex-wrap: wrap;
   gap: 30px;
   width: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1060px) {
+  .otherProjectsContainer{
+    height: fit-content;
+  }
 }

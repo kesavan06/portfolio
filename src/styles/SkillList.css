@@ -7,9 +7,10 @@
   gap: 20px;
   padding: 20px;
   height: 100vh;
+
 }
 
-.skillHeading{
+.skillHeading {
   width: 98%;
 }
 
@@ -26,3 +27,8 @@
   gap: 30px;
 }
 
+@media screen and (min-width: 0px) and (max-width: 1060px) {
+  .skillContainer{
+    height: fit-content;
+  }
+}
